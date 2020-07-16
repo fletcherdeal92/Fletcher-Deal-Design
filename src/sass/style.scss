@@ -1,0 +1,25 @@
+@use '_reset';
+
+$main: #77878B;
+$text_blue: #0D1321;
+$gold: #FFCF99;
+$black: #1E1E24;
+$blue: #16324F;
+
+body {
+    background-color: $main;
+    font-family: ibm-plex-sans,sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4em;
+    text-align: center;
+    color: $gold;
+}
+
+h2 {
+    font-weight: 400;
+    text-align: center;
+}
